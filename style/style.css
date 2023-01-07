@@ -1,0 +1,538 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/* Header */
+#head {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 300px;
+  padding: 0 15px;
+  background: #040b14;
+}
+
+#head .header .head-image {
+    margin: 15px auto;
+    display: block;
+    width: 120px;
+    border: 8px solid #2c2f3f;
+    border-radius: 50%;
+}
+
+#head .header h1 {
+    font-size: 24px;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+  }
+
+  #head .social-media {
+    height: 40px;
+    margin-right: -50px; 
+    padding-left: 30px;
+
+  }
+
+  #head .social-media:hover {
+    height: 50px;
+  }
+/* End of header */
+
+/* Navbar */
+  .navbar ul {
+    list-style: none;
+    position: fixed;
+    top: 230px;
+    left: 0;
+    padding: 10px;
+    
+  }
+
+  .navbar ul li {
+    padding: 10px;
+  }
+
+  .navbar ul li i, a {
+    padding: 10px;
+  }
+
+  .navbar ul li a {
+    text-decoration: none;
+    color: grey;
+    font-size: 18px;
+  }
+
+  .navbar ul li a:hover {
+    color:white;
+  }
+
+  .navbar ul li:hover>a .fa {
+    color: green;
+  }
+/* End of Navbar */
+
+
+/* Hero section */
+#hero {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/gwapo.jpg") top center;
+  background-size: cover;
+  position: static;
+  margin-top: -24px;
+  z-index: 2;
+  overflow: hidden;
+}
+
+#hero .banner {
+  position: relative;
+  top: 230px;
+  left: 490px;
+}
+
+#hero h1 {
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 56px;
+  color: #fff;
+}
+
+#hero p {
+  color: #fff;
+  margin-bottom: 50px;
+  font-size: 26px;
+  font-family: "Poppins", sans-serif;
+}
+
+#hero p span {
+  margin: 10px;
+  color: #fff;
+  padding-bottom: 4px;
+  letter-spacing: 1px;
+  border-bottom: 3px solid #149ddd;
+}
+/* End of hero section */
+
+/* About section */
+
+#about {
+ margin-left: 310px;
+ padding-top: 50px;
+}
+
+#about h1 {
+  font-weight: 500;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  color: rgb(4, 4, 77);
+  position: relative;
+}
+
+#about h1::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: #149ddd;
+  bottom: 0;
+  left: 0;
+}
+
+#about p {
+  padding-bottom: 15px;
+}
+
+#about img {
+  float: left;
+  width: 300px;
+  height: 270px;
+}
+
+#about .about-my {
+  float: left;
+  margin-left: 15px;
+  width: 64%;
+}
+
+#about h2 {
+  color: rgb(9, 9, 95);
+  font-weight: 500;
+}
+
+#about .about-desc {
+  font-style: italic;
+}
+
+
+#about .b1, .b2 {
+  list-style: none;
+  display: inline-block;
+  font-size: 19px;
+  margin-left: -30px;
+}
+
+#about li {
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+#about .fa {
+  color: blue;
+  margin: 10px;
+}
+
+/* End of about section */
+
+/* Resume Section */
+#resume {
+  margin-left: 310px;
+  padding-top: 330px;
+}
+
+#resume h1 {
+  font-weight: 500;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  color: rgb(4, 4, 77);
+  position: relative; 
+}
+
+#resume h1::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: #149ddd;
+  bottom: 0;
+  left: 0;
+}
+
+#resume .resume-summary {
+  position: absolute;
+}
+
+#resume .resume-content {
+  width: 40%;
+  position: relative;
+  left: 20px;
+  border-left: solid 2px blue;
+  padding: 0 0 0 20px;
+}
+
+#resume .resume-summary, .professional-content {
+display: inline-block;
+}
+
+#resume .professional-content {
+  margin-left: 500px;
+}
+
+#resume span {
+  display: block;
+}
+
+#resume .year {
+  background-color: aquamarine;
+  text-align: center;
+  width: 120px;
+  margin-left: 10px;
+}
+
+#resume .desc {
+  font-style: italic;
+}
+
+#resume .resume-title {
+  margin-left: 40px;
+}
+
+#resume .resume-content::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: #fff;
+  border: 2px solid #1f5297;
+}
+
+#resume .prof-desc {
+  position: relative;
+  left: 20px;
+  border-left: solid 2px blue;
+  padding: 0 0 2px 20px;
+}
+
+#resume .prof-desc::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: #fff;
+  border: 2px solid #1f5297;
+}
+
+#resume .btn {
+  position: relative;
+  top: 100px;
+  left: 50px;
+}
+/* End of Resume */
+
+/* Portfolio section */
+
+#portfolio {
+  margin-left: 310px;
+  padding-top: 150px;
+}
+
+#portfolio h1 {
+  font-weight: 500;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  color: rgb(4, 4, 77);
+  position: relative; 
+}
+
+#portfolio h1::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: #149ddd;
+  bottom: 0;
+  left: 0;
+}
+
+
+#portfolio .filter {
+  text-align: center;
+}
+
+#portfolio .filter li {
+  display: inline;
+  border: solid 1px;
+  margin-left: -5px;
+  padding: 10px;
+  background-color: grey;
+}
+
+#portfolio .filter li:nth-child(3) {
+  border-end-end-radius: 5px;
+  border-start-end-radius: 5px;
+}
+
+#portfolio .filter li:first-child {
+  border-top-left-radius: 5px;
+  border-end-start-radius: 5px;
+}
+
+#portfolio .filter li a {
+  text-decoration: none;
+  color: white;
+}
+
+#portfolio .filter li:hover {
+  background-color: maroon;
+  height: 20px;
+}
+
+/* portfolio content */
+#portfolio .portfo-content img {
+  height: 300px;
+  width: 300px;
+  border: solid 1px;
+  margin: 10px 0 0 0;
+}
+
+#portfolio .portfo-content {
+  position: relative;
+  display: inline;
+  top: 30px;
+}
+
+#portfolio .portfo-content .port-img {
+  display: inline-block;
+  margin: 5px 5px 5px 5px;
+}
+
+#portfolio .portfo-content .hidden {
+  position: absolute;
+  left: 100px;
+  top: 10px;
+  display: none;
+}
+
+#portfolio .portfo-content .port-img:hover + .hidden {
+  display: block;
+  overflow: hidden;
+}
+/* End of Portfolio section */
+
+/* Services Section */
+#services {
+  margin-left: 310px;
+  padding-top: 100px;
+}
+
+#services h1 {
+  font-weight: 500;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  color: rgb(4, 4, 77);
+  position: relative; 
+}
+
+#services h1::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: #149ddd;
+  bottom: 0;
+  left: 0;
+}
+
+#services .service-content {
+  padding: 10px;
+}
+
+#services .ser-content {
+  float: left;
+  width: 33%;
+  padding: 20px;
+}
+.ser-icons {
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 54px;
+  height: 54px;
+  background: #149ddd;
+  border-radius: 50%;
+  border: 1px solid #149ddd;
+}
+
+.ser-icons:hover {
+  background-color: white;
+}
+
+#services .ser-desc {
+  float: inline-end;
+  margin-left: 70px;
+}
+/* End of  Services Section */
+
+/* Contact me section */
+
+#contact {
+  clear: both;
+}
+
+#contact .contact-me {
+  position: relative;
+  margin-left: 310px;
+  padding-top: 30px;
+}
+
+#contact .contact-me h1 {
+  font-weight: 500;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  color: rgb(4, 4, 77);
+  position: relative; 
+}
+
+#contact .contact-me h1::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: #149ddd;
+  bottom: 0;
+  left: 0;
+}
+
+/* My information div */
+
+.my-info {
+  float: left;
+  width: 40%;
+  margin-bottom: 30px;
+  box-shadow: 3px 3px 3px 3px;
+}
+
+.mycontact-info {
+  padding: 20px 10px 10px 10px;
+}
+
+.content {
+  margin-left: 70px;
+}
+
+.forms {
+  float: left;
+  width: 58%;
+  margin-left: 20px;
+  padding: 5px;
+}
+
+.forms .name, .email {
+  display: inline-block;
+}
+
+.forms .name {
+  width: 290px;
+}
+
+.forms .email {
+  width: 290px;
+}
+
+.forms .sub {
+  width: 580px;
+}
+
+#message {
+  height: 300px;
+  resize: none;
+}
+
+.forms input[type="text"], input[type="email"], textarea {
+  margin-bottom: 10px;
+}
+
+.forms .btn {
+  margin: 20px 20px 20px 200px;
+  padding: 10px;
+}
+/* End of Contact me section */
+
+/* Footer */
+.footer {
+  position: fixed;
+  z-index: 9999;
+  top: 590px;
+  left: 200px;
+  color: grey;
+} 
